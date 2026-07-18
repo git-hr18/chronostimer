@@ -32,12 +32,14 @@
             min-height: 100vh;
             font-family: var(--font-ui);
             color: var(--text-primary);
-            overflow: hidden;
+            overflow-y: auto;
+            overflow-x: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
             background: #0b0b12;
             padding: 24px;
+            padding-top: 40px;
         }
         .bg-layer { position: fixed; inset: 0; z-index: -2; transition: opacity 1.2s var(--ease); opacity: 0; }
         .bg-layer.active { opacity: 1; }
