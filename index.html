@@ -36,7 +36,7 @@
             overflow-x: hidden;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             background: #0b0b12;
             padding: 24px;
             padding-top: 40px;
@@ -75,6 +75,7 @@
             border: 1px solid var(--glass-border);
             border-radius: var(--radius-lg);
             box-shadow: 0 30px 60px -20px rgba(0,0,0,.7);
+            margin: auto;  /* ← ADD THIS */
         }
         .app-left { display: flex; flex-direction: column; gap: 20px; }
         .app-right {
